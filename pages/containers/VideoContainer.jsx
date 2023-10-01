@@ -7,6 +7,7 @@ const VideoContainer = ({ path, customStyle }) => {
         autoPlay
         muted
         loop
+        playsinline
         className={`${
           customStyle ? customStyle : "w-full h-auto object-cover"
         }`}
