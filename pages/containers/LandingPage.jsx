@@ -19,7 +19,7 @@ const LandingPage = () => {
   return (
     <div className="bg-slate-900 flex h-full">
       <div className="max-w-[50rem] flex flex-col mx-auto w-full h-full">
-        <header className="mb-auto flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4">
+        <header className="mb-[70px] flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4">
           <nav
             className="w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
             aria-label="Global"
@@ -98,11 +98,11 @@ const LandingPage = () => {
           </div>
         </main>
 
-        <footer className="mt-auto text-center py-5">
+        {/* <footer className="mt-auto text-center py-5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <p className="text-sm text-gray-400">All rights reserved @ 2023</p>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </div>
   );

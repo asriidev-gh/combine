@@ -7,7 +7,7 @@ import VideoContainer from './containers/VideoContainer'
 export default function Home() {
   return (
     <main className='h-screen'>
-      <VideoContainer path="universe.mp4" customStyle={"absolute inset-0 w-full h-screen object-cover bg-opacity-10"}/>
+      <VideoContainer isBg={true} path="universe.mp4" customStyle="absolute inset-0 w-full h-screen object-cover bg-opacity-10"/>
       <LandingPage />
     </main>
   )
